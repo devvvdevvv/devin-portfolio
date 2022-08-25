@@ -199,6 +199,7 @@ nav .container {
   width: 250px;
   display: flex;
   align-items: center;
+  margin-right: 1.5rem;
 }
 
 .links ul {
@@ -738,6 +739,7 @@ header .circle {
   .btn {
     padding: 0.75rem 1.7rem;
     font-size: 0.8rem;
+    margin: 1rem 1rem 0 0;
   }
 
   .btn.small {

@@ -26,19 +26,19 @@
             <div class="links">
               <ul>
                 <li>
-                  <a href="./about.html" class="active">About me</a>
+                  <a href="./about.html">About me</a>
                 </li>
                 <li>
-                  <a href="#process">Design Process</a>
+                  <a href="./process.html">Design Process</a>
                 </li>
                 <li>
-                  <a href="#portfolio">Portfolio</a>
+                  <a href="./portfolio.html" class="active">Portfolio</a>
                 </li>
                 <li>
-                  <a href="#CV">CV</a>
+                  <a href="./cv.html">CV</a>
                 </li>
                 <li>
-                  <a href="#hireme">Contact</a>
+                  <a href="./contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -49,30 +49,142 @@
           </div>
         </nav>
       </header>
-
       
-      <div class="header-content">
-        <div class="container grid-2">
-         <div class="column-1 image">
-            <img src="./img/devin-taule-image.png" alt="devin-taule-image">
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title">Portfolio</h3>
           </div>
-            
-         <div class="column-2">
-          <h1 class="header-title">Devin Taule</h1>
-          <p class="text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-              It has survived not only five centuries, but also the leap into electronic typesetting, 
-              remaining essentially unchanged. 
-              It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
-          <a href="#" class="btn">Download CV</a>
-          <a href="#" class="btn btn-inverted">Portfolio</a>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".ui">UI/UX</button>
+              <button class="filter-btn" data-filter=".webdev">Web Dev</button>
+              <button class="filter-btn" data-filter=".appdev">
+                Mobile App
+              </button>
+              <button class="filter-btn" data-filter=".logo-design">
+                Logo Design
+              </button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logo Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port2.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port3.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port4.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>UI / UX Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port5.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logo Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port6.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>App Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port7.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logo Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port8.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>App Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port9.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="more-folio">
+              <a href="#" class="btn">More Folio</a>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer class="footer">

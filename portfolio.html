@@ -12,6 +12,8 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link  href="./node_modules/viewerjs/dist/viewer.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -59,25 +61,23 @@
           <div class="section-body">
             <div class="filter">
               <button class="filter-btn active" data-filter="*">All</button>
-              <button class="filter-btn" data-filter=".ui">UI/UX</button>
-              <button class="filter-btn" data-filter=".webdev">Web Dev</button>
-              <button class="filter-btn" data-filter=".appdev">
-                Mobile App
+              <button class="filter-btn" data-filter=".web-app">Web Design</button>
+              <button class="filter-btn" data-filter=".logo-design">Logo Design</button>
+              <button class="filter-btn" data-filter=".graphic-design">
+                Graphic Design
               </button>
-              <button class="filter-btn" data-filter=".logo-design">
-                Logo Design
-              </button>
+              <button class="filter-btn" data-filter=".web-dev">Web Dev</button>
+              <button class="filter-btn" data-filter=".api-app">API</button>
             </div>
 
             <div class="grid">
-              <div class="grid-item logo-design">
+              <div class="grid-item web-app">
                 <div class="gallery-image">
                   <img src="./img/portfolio/port1.jpg" alt="" />
                   <div class="img-overlay">
                     <div class="plus"></div>
                     <div class="img-description">
-                      <h3>Logo Design</h3>
-                      <h5>View Demo</h5>
+                      <h3>Musser Bros. Inc Website Redesign</h3>
                     </div>
                   </div>
                 </div>
@@ -280,6 +280,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="./node_modules/viewerjs/dist/viewer.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
   </body>

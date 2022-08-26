@@ -365,6 +365,39 @@ header .circle {
 
 /* End header */
 
+
+/* CV */
+
+.cv {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.cv .title,
+.cv .title:before {
+  color: var(--dark-one);
+}
+
+.cv .title:after {
+  background-color: var(--dark-one);
+}
+
+.cv-image {
+  padding: 5rem;
+  border: 0.1rem solid var(--dark-four);
+  border-radius: 1rem;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End CV */
+
+
 /* Portfolio */
 
 .portfolio {
@@ -755,7 +788,7 @@ header .circle {
   .section {
     padding: 0;
   }
-
+  
   .column-1 {
     margin-right: 1rem;
   }
